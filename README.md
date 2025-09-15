@@ -8,12 +8,14 @@ Features
 •	✔️ Confusion Matrix visualization for performance analysis
 •	✔️ Ensemble prediction (majority voting) for robustness
 •	✔️ User-friendly function to predict disease from given symptoms
+
 Project Structure
 📁 disease-prediction-ml
 │── disease_prediction.ipynb   # Main notebook with implementation
 │── improved_disease_dataset.csv # Dataset used
 │── README.md                  # Documentation
 │── requirements.txt           # Dependencies
+
 Tech Stack
 Programming Language: Python
 Libraries: pandas, numpy, scipy, matplotlib, seaborn, scikit-learn, imbalanced-learn
@@ -23,6 +25,7 @@ Support Vector Classifier	60.53
 Gaussian Naive Bayes	37.98
 Random Forest	68.98
 Ensemble Model	60.64
+
 Example Prediction
 Input Symptoms: skin_rash, fever, headache
 {
@@ -31,6 +34,7 @@ Input Symptoms: skin_rash, fever, headache
   "SVM Prediction": "Peptic ulcer disease",
   "Final Prediction": "Peptic ulcer disease"
 }
+
 Installation & Usage
 1.	Clone the repository:
    git clone https://github.com/your-username/disease-prediction-ml.git
@@ -39,6 +43,7 @@ Installation & Usage
    pip install -r requirements.txt
 3.	Run the notebook or script:
    jupyter notebook disease_prediction.ipynb
+  	
 Future Improvements
 •	➡️ Integrate with a web application (Flask/Django/Streamlit) for interactive use
 •	➡️ Improve accuracy with advanced models like XGBoost, LightGBM, Neural Networks
